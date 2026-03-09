@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.png binary
+*.uplugin text eol=lf
+*.cs text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.md text eol=lf
+LICENSE text eol=lf
+*.gitignore text eol=lf
