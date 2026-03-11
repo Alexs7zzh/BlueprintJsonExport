@@ -1,28 +1,28 @@
 {
-    "FileVersion": 3,
-    "Version": 1,
-    "VersionName": "1.0.0",
-    "FriendlyName": "Blueprint JSON Export",
-    "Description": "Export Unreal Blueprint assets to compact AI-oriented JSON with a semantic index.",
-    "Category": "Code Plugins",
-    "CreatedBy": "Alex Zhou",
-    "CreatedByURL": "https://github.com/Alexs7zzh",
-    "DocsURL": "",
-    "SupportURL": "",
-    "CanContainContent": false,
-    "IsBetaVersion": false,
-    "IsExperimentalVersion": false,
-    "Installed": true,
-    "Modules": [
-        {
-            "Name": "BlueprintJsonExport",
-            "Type": "Editor",
-            "LoadingPhase": "Default",
-            "PlatformAllowList": [
-                "Win64",
-                "Mac",
-                "Linux"
-            ]
-        }
-    ]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Blueprint JSON Export",
+  "Description": "Export Unreal Blueprint assets to compact AI-oriented JSON with a semantic index.",
+  "Category": "Code Plugins",
+  "CreatedBy": "Alex Zhou",
+  "CreatedByURL": "https://github.com/Alexs7zzh",
+  "DocsURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "BlueprintJsonExport",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    }
+  ]
 }

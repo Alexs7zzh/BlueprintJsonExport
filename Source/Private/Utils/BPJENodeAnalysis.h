@@ -9,13 +9,13 @@ class UScriptStruct;
 
 struct FBPJENodeAnalysisResult
 {
-    EBPJENodeType NodeType = EBPJENodeType::CallFunction;
-    FString MemberParent;
-    FString MemberName;
-    bool bMemberIsBlueprintDefined = false;
-    UEdGraph* ChildGraph = nullptr;
-    UScriptStruct* StructType = nullptr;
-    UEnum* EnumType = nullptr;
+	EBPJENodeType NodeType = EBPJENodeType::CallFunction;
+	FString MemberParent;
+	FString MemberName;
+	bool bMemberIsBlueprintDefined = false;
+	UEdGraph* ChildGraph = nullptr;
+	UScriptStruct* StructType = nullptr;
+	UEnum* EnumType = nullptr;
 };
 
 FBPJENodeAnalysisResult AnalyzeNode(UK2Node* Node);
